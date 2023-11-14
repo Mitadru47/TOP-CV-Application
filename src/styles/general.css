@@ -1,0 +1,72 @@
+#general{
+
+    width: 700px;
+    height: 200px;
+    
+    padding: 15px;
+
+    border: 1px solid brown;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#top-section{
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+#name-component, #email-component, #phone-component, #Submit-component, #Edit-component{
+
+    /* border: 1px solid burlywood; */
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+}
+
+#Submit-component, #Edit-component{
+    align-items: end;
+}
+
+#name-component label, #email-component label, #phone-component label{
+    margin-left: 5px;
+}
+
+#name-component input, #email-component input, #phone-component input{
+
+    height: 17.5px;
+    width: 250px;
+
+    padding: 2.5px 7.5px;
+
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+#Submit-component button, #Edit-component button{
+
+    width: 70px;
+    height: 25px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    padding: 3.5px 10px;
+}
+
+#name-textComponent{
+    font-size: 1.5rem;
+}
+
+#email-textComponent, #phone-textComponent{
+    font-size: 0.8rem;
+}

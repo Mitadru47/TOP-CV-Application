@@ -1,0 +1,22 @@
+html{
+
+    margin: 5px;
+    border: 1px solid red;
+}
+
+body{
+
+    padding: 5px;
+    border: 1px solid green;
+}
+
+#root{
+
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+}
