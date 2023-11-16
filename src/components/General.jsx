@@ -10,7 +10,6 @@ function Field(props){
             <input 
 
                 id={props.input} 
-                name={props.input} 
                 
                 value={props.value} 
                 onChange={props.onChange}
