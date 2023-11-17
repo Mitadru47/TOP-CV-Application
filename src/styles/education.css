@@ -1,4 +1,4 @@
-#general{
+#education{
 
     width: 700px;
     height: 200px;
@@ -23,7 +23,7 @@
     gap: 10px;
 }
 
-#name-component, #email-component, #phone-component, #Submit-component, #Edit-component{
+#school-component, #curriculum-component, #duration-component, #Submit-component, #Edit-component{
 
     /* border: 1px solid burlywood; */
     
@@ -37,11 +37,11 @@
     align-items: end;
 }
 
-#name-component label, #email-component label, #phone-component label{
+#school-component label, #curriculum-component label, #duration-component label{
     margin-left: 5px;
 }
 
-#name-component input, #email-component input, #phone-component input{
+#school-component input, #curriculum-component input, #duration-component input{
 
     height: 17.5px;
     width: 250px;
@@ -63,12 +63,12 @@
     padding: 3.5px 10px;
 }
 
-#name-textComponent{
+#school-textComponent{
     font-size: 1.5rem;
 }
 
-#email-textComponent, #phone-textComponent{
+#curriculum-textComponent, #duration-textComponent{
     
     font-size: 0.8rem;
-    margin-left: 1.5px;
+    margin-left: 4px;
 }

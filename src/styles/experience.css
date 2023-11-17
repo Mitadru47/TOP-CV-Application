@@ -1,4 +1,4 @@
-#general{
+#experience{
 
     width: 700px;
     height: 200px;
@@ -15,7 +15,21 @@
     gap: 10px;
 }
 
-#top-section{
+#grid-sectionA{
+
+    display: flex;
+    gap: 75px;
+}
+
+#grid-sectionB{
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+}
+
+#sideA, #sideB{
 
     display: flex;
     flex-direction: column;
@@ -23,7 +37,8 @@
     gap: 10px;
 }
 
-#name-component, #email-component, #phone-component, #Submit-component, #Edit-component{
+#company-component, #jobTitle-component, #responsibilities-component, #startDate-component, #endDate-component,
+#Submit-component, #Edit-component{
 
     /* border: 1px solid burlywood; */
     
@@ -37,11 +52,13 @@
     align-items: end;
 }
 
-#name-component label, #email-component label, #phone-component label{
+#company-component label, #jobTitle-component label, #responsibilities-component label,
+#startDate-component label, #endDate-component label{
     margin-left: 5px;
 }
 
-#name-component input, #email-component input, #phone-component input{
+#company-component input, #jobTitle-component input, #responsibilities-component input,
+#startDate-component input, #endDate-component input{
 
     height: 17.5px;
     width: 250px;
@@ -63,12 +80,12 @@
     padding: 3.5px 10px;
 }
 
-#name-textComponent{
+#company-textComponent{
     font-size: 1.5rem;
 }
 
-#email-textComponent, #phone-textComponent{
+#jobTitle-textComponent, #responsibilities-textComponent, #startDate-textComponent, #endDate-textComponent{
     
     font-size: 0.8rem;
-    margin-left: 1.5px;
+    margin-left: 4px;
 }
