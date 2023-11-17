@@ -35,26 +35,22 @@ function Text(props){
 
 function General(){
 
-    const [nameValue, setNameValue] = React.useState("");
+    const [nameValue, setNameValue] = React.useState("Vincent Vega");
 
-    const [emailValue, setEmailValue] = React.useState("");
-    const [phoneValue, setPhoneValue] = React.useState("");
+    const [emailValue, setEmailValue] = React.useState("JohnTravolta@Hitman.pf");
+    const [phoneValue, setPhoneValue] = React.useState("123456789");
 
-    const [submitState, setSubmitState] = React.useState(false);
+    const [submitState, setSubmitState] = React.useState(true);
 
     function clickEvent_Edit(event){
 
-        event.preventDefault();
         console.log("Edit Mode!");
-
         setSubmitState((prevValue) => !(prevValue));
     }
 
     function clickEvent_Submit(event){
 
-        event.preventDefault();
         console.log("Submitted!");
-
         setSubmitState((prevValue) => !(prevValue));
     }
 

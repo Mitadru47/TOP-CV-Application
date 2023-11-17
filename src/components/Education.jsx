@@ -27,16 +27,14 @@ function Button(props){
 
 function Education(){
 
-    const [schoolName, setSchoolName] = React.useState("");
+    const [schoolName, setSchoolName] = React.useState("Hogwarts School of Witchcraft and Wizardry");
     
-    const [curriculum, setCurriculum] = React.useState("");
-    const [duration, setDuration] = React.useState("");
+    const [curriculum, setCurriculum] = React.useState("Magic");
+    const [duration, setDuration] = React.useState("1997-2007");
 
-    const [submitState, setSubmitState] = React.useState(false);
+    const [submitState, setSubmitState] = React.useState(true);
 
     function handleClick(event){
-
-        event.preventDefault();
 
         if(event.target.id === "Edit"){
             console.log("Edit Mode!");

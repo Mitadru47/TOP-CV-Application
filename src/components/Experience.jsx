@@ -28,14 +28,14 @@ function Button(props){
 
 function Experience(){
 
-    const [company, setCompany] = React.useState("");
-    const [job, setJob] = React.useState("");
-    const [responsibilities, setResponsibilities] = React.useState("");
+    const [company, setCompany] = React.useState("Marcelles Wallas' Extermination Agency Pvt. Ltd.");
+    const [job, setJob] = React.useState("Hitman");
+    const [responsibilities, setResponsibilities] = React.useState("Shoot people in heads");
 
-    const [startDate, setStartDate] = React.useState("");
-    const [endDate, setEndDate] = React.useState("");
+    const [startDate, setStartDate] = React.useState("01/01/1992");
+    const [endDate, setEndDate] = React.useState("14/10/1994");
 
-    const [submitState, setSubmitState] = React.useState(false);
+    const [submitState, setSubmitState] = React.useState(true);
 
     function clickEvent(event){
 

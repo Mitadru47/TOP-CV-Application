@@ -5,7 +5,7 @@
     
     padding: 15px;
 
-    border: 1px solid brown;
+    border: 1px solid black;
     border-radius: 5px;
 
     display: flex;
@@ -13,6 +13,8 @@
 
     justify-content: space-between;
     gap: 10px;
+
+    background-color: #FCE38A;
 }
 
 #top-section{
@@ -50,17 +52,6 @@
 
     border: 1px solid grey;
     border-radius: 5px;
-}
-
-#Submit-component button, #Edit-component button{
-
-    width: 70px;
-    height: 25px;
-
-    border: 1px solid black;
-    border-radius: 5px;
-
-    padding: 3.5px 10px;
 }
 
 #school-textComponent{
